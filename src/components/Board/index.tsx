@@ -27,9 +27,7 @@ function Board() {
         setShowColorsList(false)
     }
 
-    const removeNote = (noteId: number) => {
-        console.log('noteId', noteId)
-    }
+    const removeNote = (noteId: number) => {}
 
     return (
         <BoardContainer >
